@@ -26,6 +26,33 @@
 </head>
 
 <body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/main-logo.png" alt="CLOUD Logo" height="100">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="https://docs.google.com/spreadsheets/d/1ykkZQGAHeisWRa-nW3x-lcv4fNJs-QEMA6kmy7DQLSY/edit#gid=0">장부</a></li>
+                            <li class="scroll-to-section"><a href="/suggestion.html">건의하기</a></li> 
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
     <!-- ***** Suggestion Us Area Starts ***** -->
     <section class="section" id="suggestion">
         <div class="container">
@@ -38,6 +65,10 @@
                             <h2>건의하기</h2>
                         </div>
                         <p>건의사항 폼을 작성하여 저희에게 메시지를 전달해주세요.</p>
+                        <p>모든 건의사항을 하나하나 전부 귀기울여 듣겠습니다.</p>
+                        <br>
+                        <p>*은 *필수 항목*입니다.</p>
+                        <p>(이름 칸은 적지 않으셔도 됩니다!)</p>
                     <!--
                         <div class="row">
                             <div class="col-lg-6">
@@ -65,12 +96,12 @@
                                 <div class="col-lg-12">
                                     <h4>건의사항</h4>
                                 </div>
-                            <!--
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
-                                        <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                                        <input name="name" type="text" id="name" placeholder="Name">
                                     </fieldset>
                                 </div>
+                                <!--
                                 <div class="col-lg-6 col-sm-12">
                                     <fieldset>
                                         <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
@@ -123,7 +154,7 @@
                             -->
                                 <div class="col-lg-12">
                                     <fieldset>
-                                        <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                                        <textarea name="message" rows="6" id="message" placeholder="*Message*" required=""></textarea>
                                     </fieldset>
                                 </div>
                                 <div class="col-lg-12">
