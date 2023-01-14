@@ -1047,19 +1047,25 @@ menu
 }
 
 .card1 {
-  background-image: url(../images/card01.jpg);
+  background-image: url(../images/director01.jpg);
 }
 .card2 {
-  background-image: url(../images/card02.jpg);
+  background-image: url(../images/director02.jpg);
 }
 .card3 {
-  background-image: url(../images/card03.jpg);
+  background-image: url(../images/director03.jpg);
 }
 .card4 {
-  background-image: url(../images/card04.jpg);
+  background-image: url(../images/director04.jpg);
 }
 .card5 {
-  background-image: url(../images/card05.jpg);
+  background-image: url(../images/director05.jpg);
+}
+.card6 {
+  background-image: url(../images/director06.jpg);
+}
+.card7 {
+  background-image: url(../images/director07.jpg);
 }
 
 .info {
@@ -1068,7 +1074,7 @@ menu
   background-color: #49A4F5;
   border: 1px solid #49A4F5;
   transform: translateY(100%) translateY(120px) translateZ(0);
-  transition: transform 0.5s ease-out;
+  transition: transform 0.4s ease-out;
 }
 
 .card:hover .info,
