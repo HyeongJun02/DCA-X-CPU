@@ -1052,20 +1052,17 @@ menu
 .card2 {
   background-image: url(../images/director02.jpg);
 }
-.card3 {
-  background-image: url(../images/director03.jpg);
+.plan {
+  background-image: url(../images/dep_plan.png);
 }
-.card4 {
-  background-image: url(../images/director04.jpg);
+.education {
+  background-image: url(../images/dep_education.png);
 }
-.card5 {
-  background-image: url(../images/director05.jpg);
+.promote {
+  background-image: url(../images/dep_promote.png);
 }
-.card6 {
-  background-image: url(../images/director06.jpg);
-}
-.card7 {
-  background-image: url(../images/director07.jpg);
+.account {
+  background-image: url(../images/dep_account.png);
 }
 
 .info {
