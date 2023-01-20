@@ -64,11 +64,19 @@
                             <h6>Contact Us</h6>
                             <h2>건의하기</h2>
                         </div>
-                        <p>건의사항 폼을 작성하여 저희에게 메시지를 전달해주세요.</p>
-                        <p>모든 건의사항을 하나하나 전부 귀기울여 듣겠습니다.</p>
+                        <p>
+                            건의사항 폼을 작성하여 저희에게 메시지를 전달해주세요.<br>
+                            모든 건의사항을 하나하나 전부 귀기울여 듣겠습니다.
+                        </p>
                         <br>
-                        <p>*은 *필수 항목*입니다.</p>
-                        <p>(이름 칸은 적지 않으셔도 됩니다!)</p>
+                        <p>
+                            *은 *필수 항목*입니다.<br>
+                            (이름, 이메일 칸은 적지 않으셔도 됩니다!)
+                        </p>
+                        <br>
+                        <p>
+                            {"result":"<span style="background-color: pink">success</span>",~~~~~} 가 나오면 제출된 것입니다.
+                        </p>
                     <!--
                         <div class="row">
                             <div class="col-lg-6">
@@ -101,17 +109,12 @@
                                         <input name="name" type="text" id="name" placeholder="Name">
                                     </fieldset>
                                 </div>
+                                <div class="col-lg-6 col-sm-12">
+                                    <fieldset>
+                                        <input name="email" type="text" id="email" placeholder="Email">
+                                    </fieldset>
+                                </div>
                                 <!--
-                                <div class="col-lg-6 col-sm-12">
-                                    <fieldset>
-                                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <fieldset>
-                                        <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
-                                    </fieldset>
-                                </div>
                                 <div class="col-md-6 col-sm-12">
                                     <fieldset>
                                         <select value="number-guests" name="number-guests" id="number-guests">

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logo Test</title>
+    <link rel="stylesheet" href="assets/css/logoTest.css">
+</head>
+
+<body style="background-color: #696969">
+    <script>
+        function colorChange(){
+            var area1 = document.getElementById("area1");
+            var area2 = document.getElementById("area2");
+            var color = document.getElementById("color");
+            area1.style.backgroundColor = color.value;
+            area2.style.backgroundColor = color.value;
+
+            var code = document.getElementById("color").value;
+            document.getElementById("code").innerHTML = code;
+        };
+    </script>
+
+    <div >
+        <img id="area1" src="/assets/images/Logo-Test-White.png" width="300">
+        <img id="area2" src="/assets/images/Logo-Test-Black.png" width="300">
+    </div>
+
+    <input type="color" id="color" value="#a0bff0">
+    <button onclick="colorChange()">클릭</button>
+    <p id="code"></p>
+</body>
+</html>
