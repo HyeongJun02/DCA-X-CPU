@@ -17,6 +17,16 @@
             var code = document.getElementById("color").value;
             document.getElementById("code").innerHTML = code;
         };
+        function colorChangeCode(){
+            var area1 = document.getElementById("area1");
+            var area2 = document.getElementById("area2");
+            var colorCode = document.getElementById("colorCode");
+            area1.style.backgroundColor = colorCode.value;
+            area2.style.backgroundColor = colorCode.value;
+
+            var code = document.getElementById("colorCode").value;
+            document.getElementById("code").innerHTML = code;
+        };
     </script>
 
     <div >
@@ -24,8 +34,10 @@
         <img id="area2" src="/assets/images/Logo-Test-Black.png" width="300">
     </div>
 
-    <input type="color" id="color" value="#a0bff0">
-    <button onclick="colorChange()">클릭</button>
+    <strong>색상 선택: </strong><input type="color" id="color" value="#a0bff0">
+    <button onclick="colorChange()">변경</button><br>
+    <strong>직접 입력: </strong><input id="colorCode">
+    <button onclick="colorChangeCode()">변경</button>
     <p id="code"></p>
 </body>
 </html>
