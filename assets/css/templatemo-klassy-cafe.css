@@ -1048,9 +1048,11 @@ menu
 
 .card1 {
   background-image: url(../images/director01.jpg);
+  width: 500;
 }
 .card2 {
   background-image: url(../images/director02.jpg);
+  width: 500;
 }
 .plan {
   background-image: url(../images/dep_plan.png);
